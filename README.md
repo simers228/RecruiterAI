@@ -14,3 +14,9 @@ pip install -r requirements.txt
 
 scrapy crawl linkedin_people_profile
 (pip install any modules if not found)
+
+**Full stack?**
+Web Framework -> Flask
+ORM -> SQL Alchemy
+Database Connector -> psycopg
+Relational Database -> PostgreSQL
