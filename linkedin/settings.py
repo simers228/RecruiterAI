@@ -38,5 +38,5 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 # Max Concurrency On ScrapeOps Proxy Free Plan is 1 thread
-CONCURRENT_REQUESTS = 1
+CONCURRENT_REQUESTS = 49
 
