@@ -2,9 +2,9 @@
 
 1. Clone this repository to local computer
 
-2. Rename the directory to reflect the new project name
+2. Rename the directory to your preffered file name
 
-3. Create a new virtual environment
+3. Create a new virtual environment contained to a venv folder
 
    - Windows: `python -m venv ./venv`
    - Mac: `python3 -m venv ./venv`
