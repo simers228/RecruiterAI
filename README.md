@@ -1,16 +1,23 @@
-# DataAI
+## Steps to install dependencies in a virtual environment
 
-To run script:
+1. Clone this repository to local computer
 
-**Activate Virtual Env**
+2. Rename the directory to reflect the new project name
 
-python3 -m venv env
+3. Create a new virtual environment
 
-source env/bin/activate
+   - Windows: `python -m venv ./venv`
+   - Mac: `python3 -m venv ./venv`
 
-**Install and run within Virtual Env**
+4. Activate the new virtual environment
 
-pip install -r requirements.txt
+   - Windows: `.\venv\Scripts\activate`
+   - Mac: `source ./venv/bin/activate`
 
-scrapy crawl linkedin_people_profile
+5. Install the dependencies `pip install -r requirements.txt`
+
+## Run the Applicatoin
+
+Run the app `scrapy crawl linkedin_people_profile`
+
 (pip install any modules if not found)
