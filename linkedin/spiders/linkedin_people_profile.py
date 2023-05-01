@@ -13,7 +13,7 @@ class LinkedInPeopleProfileSpider(scrapy.Spider):
     def start_requests(self):
         logging.basicConfig(filename='linkedin_people_profile.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
-        with open('company_profiles/mcl_construction.txt', 'r') as file:
+        with open('company_profiles/boldt.txt', 'r') as file:
             content = file.read().strip()
             profile_list = ast.literal_eval(content)
         for profile in profile_list:
