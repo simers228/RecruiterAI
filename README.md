@@ -16,8 +16,15 @@
 
 5. Install the dependencies `pip install -r requirements.txt`
 
+
 ## Run the Applicatoin
 
 Run the app `scrapy crawl linkedin_people_profile`
 
 (pip install any modules if not found)
+
+
+## Contributing guidelines
+
+1. After installing new dependencies run to following command to update the requirements.txt file. 
+   - `pip freeze > requirements.txt`

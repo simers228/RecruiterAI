@@ -3,11 +3,13 @@ from sqlalchemy import create_engine
 from sqlalchemy import text
 import psycopg2
 
-host = '10.0.0.218'  # IP on my local network - watch for dynamic IP after a machine restart
+host = '10.0.0.122'  # IP on my local network - watch for dynamic IP after a machine restart
 port = '5432'  # Postgres is on port 5432
-db_name = 'SQMAIN_DB'  # Replace with the name of your PostgreSQL database
-user = 'usr_sqlalchemy'  # Replace with the username you use to connect to your PostgreSQL database
-password = 'testconnection123'  # Replace with the password you use to connect to your PostgreSQL database
+db_name = 'seq_app'  # Replace with the name of your PostgreSQL database
+user = 'usrrecruiterai'  # Replace with the username you use to connect to your PostgreSQL database
+password = 'seqWDFHDF300'  # Replace with the password you use to connect to your PostgreSQL database
+# user = 'seqadmin'
+# password = 'SQLAdmin2023'
 
 connectionString = f'postgresql://{user}:{password}@{host}:{port}/{db_name}'
 print(connectionString)
